@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Shoes_Store</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.jfif" />
+    <None Remove="2.jfif" />
+    <None Remove="3.jfif" />
+    <None Remove="4.jfif" />
+    <None Remove="5.jfif" />
+    <None Remove="6.jfif" />
+    <None Remove="7.jfif" />
+    <None Remove="8.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1.jfif" />
+    <Resource Include="2.jfif" />
+    <Resource Include="3.jfif" />
+    <Resource Include="4.jfif" />
+    <Resource Include="5.jfif" />
+    <Resource Include="6.jfif" />
+    <Resource Include="7.jfif" />
+    <Resource Include="8.jpg" />
+  </ItemGroup>
+
+</Project>
